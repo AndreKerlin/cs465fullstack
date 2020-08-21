@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 const host = process.env.DB_HOST || '127.0.0.1'
-// const dbURI = 'mongodb://localhost:27017/travlr'
-const dbURI = 'mongodb://' + host + '/travlr'
+// const dbURI = 'mongodb://localhost:27017/travlr1'
+// const dbURI = 'mongodb://' + host + '/travlr1'
+const dbURI = `mongodb://${host}/travlr1`
 
 const readLine = require('readline');
 
