@@ -18,6 +18,10 @@ Functionality
 
 -(Answer): JSON is derived from Javascript's object literal syntax, with syntax being a main difference between the two. JSON has been used in our project whenever a request is being passed to MongoDB. Since MongoDB speaks javascript natively it is able to take javascript request files and return them as a JSON object to be passed back to the client side and be used to popluate a view.
 
+-(Question): Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
+
+-(Answer): Angular.js makes use of components that contain html, javascript or embedded expressions. These components take up different portions of a page and many are reusable without the need of writing more code. For this project we had a trip-card component that was repeated with the unique related data for each trip shown  on its respective card.
+
 
 Testing
 
