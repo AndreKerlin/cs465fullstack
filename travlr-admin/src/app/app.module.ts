@@ -11,6 +11,9 @@ import { TripDataService } from './services/trip-data.service';
 import { fromEventPattern } from 'rxjs';
 import { AddTripComponent } from './add-trip/add-trip.component';
 import { EditTripComponent } from './edit-trip/edit-trip.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { EditTripComponent } from './edit-trip/edit-trip.component';
     TripListingComponent,
     TripCardComponent,
     AddTripComponent,
-    EditTripComponent
+    EditTripComponent,
+    NavbarComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
